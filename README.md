@@ -21,8 +21,11 @@ Isso atende ao requisito do enunciado sem exigir servidor ou banco real, mantend
 ## Como abrir
 1. Baixe ou clone este projeto.
 2. Abra o arquivo `index.html` no navegador.
+
    ou
+
    [Clique aqui para acessar o site](https://lucas-lab400.github.io/MVP-calculadora-de-economia/)
 
 
 Feito com HTML, CSS e JavaScript.
+
