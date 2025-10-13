@@ -37,7 +37,7 @@ Passos:
    git clone https://github.com/lucas-lab400/MVP-calculadora-de-economia.git
 
 2. Instale as dependências:
-   cd backend
+   cd backend  
    npm install
 
 3. Configure o banco de dados:
@@ -53,13 +53,21 @@ Passos:
        data_registro DATETIME DEFAULT CURRENT_TIMESTAMP
      );
 
-4. Inicie o servidor:
+4. Crie um arquivo `.env` com os dados de acesso ao banco:
+
+   DB_HOST=localhost  
+   DB_USER=root  
+   DB_PASSWORD=1234  
+   DB_NAME=bd_calculo_economia
+
+5. Inicie o servidor:
    node server.js
 
-5. Abra o arquivo index.html no navegador para usar o aplicativo.
+6. Abra o arquivo index.html no navegador para usar o aplicativo.
+
+> Para que o sistema funcione corretamente com o banco de dados, é necessário que o usuário configure o MySQL localmente e conecte com os dados acima. Sem isso, o armazenamento de sessões não funcionará.
 
 ## Site público
 
 Acesse: https://lucas-lab400.github.io/MVP-calculadora-de-economia/
-
 
