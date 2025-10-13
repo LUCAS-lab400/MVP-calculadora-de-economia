@@ -55,10 +55,11 @@ Passos:
 
 4. Crie um arquivo `.env` com os dados de acesso ao banco:
 
-   DB_HOST=localhost  
-   DB_USER=root  
-   DB_PASSWORD=1234  
-   DB_NAME=bd_calculo_economia
+DB_HOST=seu_host  
+DB_USER=seu_usuario  
+DB_PASSWORD=sua_senha  
+DB_NAME=seu_banco
+
 
 5. Inicie o servidor:
    node server.js
@@ -70,4 +71,5 @@ Passos:
 ## Site público
 
 Acesse: https://lucas-lab400.github.io/MVP-calculadora-de-economia/
+
 
