@@ -1,6 +1,6 @@
-# Calculadora de Economia
+# Calculadora de Economia Final
 
-Este é um aplicativo simples para ajudar usuários a definir metas de economia, registrar gastos e acompanhar seu progresso financeiro.
+Este projeto começou como um MVP simples e evoluiu para uma aplicação funcional completa. A calculadora permite que o usuário defina metas financeiras, registre gastos e acompanhe seu progresso de forma prática e intuitiva.
 
 # Integrantes
 - Beatriz Cunha do Nascimento
@@ -71,6 +71,7 @@ DB_NAME=seu_banco
 ## Site público
 
 Acesse: https://lucas-lab400.github.io/calculadora-de-economia-evoluida/
+
 
 
 
