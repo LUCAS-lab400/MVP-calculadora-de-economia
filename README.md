@@ -34,7 +34,7 @@ Requisitos:
 Passos:
 
 1. Clone o repositório:
-   git clone https://github.com/lucas-lab400/MVP-calculadora-de-economia.git
+  git clone https://github.com/lucas-lab400/calculadora-de-economia-final.git
 
 2. Instale as dependências:
    cd backend  
@@ -71,6 +71,7 @@ DB_NAME=seu_banco
 ## Site público
 
 Acesse: https://lucas-lab400.github.io/calculadora-de-economia-evoluida/
+
 
 
 
