@@ -1,31 +1,64 @@
-﻿## Integrantes do Projeto
+﻿# 💰 Calculadora de Economia
 
-- Beatriz Cunha do Nascimento
-- Esdras Trindade de Lima Raiz
-- Ismael Wagner de Araujo
-- Lucas Cipriano Costa
+Este é um aplicativo simples para ajudar usuários a definir metas de economia, registrar gastos e acompanhar seu progresso financeiro.
 
-# MVP-calculadora-de-economia
+---
 
+## 🚀 Funcionalidades
 
-Este é um site simples para calcular quanto posso economizar.
+- Definir meta de economia
+- Registrar gastos com descrição
+- Calcular total de gastos, receita média e receita marginal
+- Gerar resumo mensal
+- Salvar sessões no banco de dados MySQL
+- Visualizar histórico de sessões
 
-## Como funciona
-- Eu digito quanto quero economizar por dia.
-- O site mostra quanto isso dá por **semana**, **mês** e **ano**.
+---
 
-## Banco de dados (armazenamento)
-Para seguir o enunciado do nosso professor, que pede definição de um Sistema Gerenciador de Banco de Dados, este MVP utiliza o LocalStorage do navegador. Ele funciona como um pequeno banco de dados interno, permitindo armazenar temporariamente o histórico de simulações feitas pelo usuário.
-Isso atende ao requisito do enunciado sem exigir servidor ou banco real, mantendo a simplicidade do MVP. Em versões futuras, o LocalStorage poderia ser substituído por um banco real, como MySQL ou Firebase, para armazenamento permanente.
+## 🛠️ Tecnologias utilizadas
 
-## Como abrir
-1. Baixe ou clone este projeto.
-2. Abra o arquivo `index.html` no navegador.
+- HTML, CSS e JavaScript (front-end)
+- Node.js com Express (back-end)
+- MySQL (banco de dados)
+- phpMyAdmin (gerenciador de banco)
 
-   ou
+---
 
-   [Clique aqui para acessar o site](https://lucas-lab400.github.io/MVP-calculadora-de-economia/)
+## 📦 Como executar o projeto
 
+### 🔧 Requisitos
 
-Feito com HTML, CSS e JavaScript.
+- Node.js instalado
+- MySQL instalado e rodando
+- phpMyAdmin (opcional para visualizar o banco)
 
+### 📁 Passos
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+Instale as dependências:
+
+bash
+cd backend
+npm install
+Configure o banco de dados:
+
+Crie o banco bd_calculo_economia
+
+Execute o script SQL para criar a tabela:
+
+sql
+CREATE TABLE IF NOT EXISTS tabelas_bd_calculo_economia (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  meta DECIMAL(10,2),
+  objetivo DECIMAL(10,2),
+  total_gastos DECIMAL(10,2),
+  gastos JSON,
+  data_registro DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+Inicie o servidor:
+
+bash
+node server.js
+Abra o index.html no navegador para usar o app.
