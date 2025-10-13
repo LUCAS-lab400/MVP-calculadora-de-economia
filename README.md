@@ -70,7 +70,8 @@ DB_NAME=seu_banco
 
 ## Site público
 
-Acesse: https://lucas-lab400.github.io/calculadora-de-economia-evoluida/
+Acesse: https://lucas-lab400.github.io/calculadora-de-economia-final/
+
 
 
 
