@@ -2,6 +2,12 @@
 
 Este é um aplicativo simples para ajudar usuários a definir metas de economia, registrar gastos e acompanhar seu progresso financeiro.
 
+# Integrantes
+- Beatriz Cunha do Nascimento
+- Esdras Trindade de Lima Raiz
+- Ismael Wagner de Araujo
+- Lucas Cipriano Costa
+
 ## Funcionalidades
 
 - Definir meta de economia
@@ -55,4 +61,5 @@ Passos:
 ## Site público
 
 Acesse: https://lucas-lab400.github.io/MVP-calculadora-de-economia/
+
 
