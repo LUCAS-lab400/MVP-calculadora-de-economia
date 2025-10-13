@@ -70,6 +70,7 @@ DB_NAME=seu_banco
 
 ## Site público
 
-Acesse: https://lucas-lab400.github.io/MVP-calculadora-de-economia/
+Acesse: https://lucas-lab400.github.io/calculadora-de-economia-evoluida/
+
 
 
